@@ -35,8 +35,10 @@ cd painel-pdv
 
 # Crie e ative um ambiente virtual
 python -m venv venv
-source venv/bin/activate  # Para Linux/macOS
-venv\Scripts\activate     # Para Windows
+source venv/bin/activate  
+# Para Linux/macOS
+venv\Scripts\activate     
+# Para Windows
 
 # Instale as dependências
 pip install -r requirements.txt
